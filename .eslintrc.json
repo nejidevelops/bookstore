@@ -30,9 +30,6 @@
   ],
   "ignorePatterns": [
     "dist/",
-    "build/",
-    "App.js",
-    "Navbar.jsx",
-    "index.js"
+    "build/"
   ]
 }
