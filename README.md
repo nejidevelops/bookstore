@@ -29,7 +29,7 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Math Magician <a name="about-project"></a>
+# 📖Book Store <a name="about-project"></a>
 
 "Book Store is a website for storing books. It is a Single Page App (SPA) that allows users to:
 - View books
