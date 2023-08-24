@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Booklist from './components/Booklist';
+import BookView from './components/BookView';
 import Categories from './components/Categories';
 import './App.css';
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Booklist />} />
+        <Route path="/" element={<BookView />} />
         <Route path="/categories" element={<Categories />} />
       </Routes>
     </div>
