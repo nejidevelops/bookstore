@@ -7,48 +7,52 @@ import ProgressBar from './ProgressBar';
 const Book = ({ book }) => {
   const dispatch = useDispatch();
   return (
-    <div>
-      <div key={book.id}>
-        <p>{book.category}</p>
-        <p>{book.title}</p>
-        <p>{book.author}</p>
+    <div className="book-card">
+      <div key={book.id} className="book-info">
+        <p className="book-category">{book.category}</p>
+        <p className="book-title">{book.title}</p>
+        <p className="book-author">{book.author}</p>
         <ul>
           <li>
-            <button type="button">
+            <button type="button" className="comment-btn">
               Comments
             </button>
           </li>
+          <div className="level-one" />
           <li>
             <button
               type="button"
               onClick={() => {
                 dispatch(deleteBookFromApi(book.id));
               }}
+              className="remove-btn"
             >
               Remove
             </button>
           </li>
+          <div className="level-one" />
           <li>
-            <button type="button">
+            <button type="button" className="edit-btn">
               Edit
             </button>
           </li>
         </ul>
       </div>
-      <div>
+      <div className="item-progress">
         <ProgressBar />
-        <div>
-          <p>
+        <div className="task-progress">
+          <p className="complete-task">
             {Math.floor(Math.random() * (99 - 0)) + 0}
             <span>%</span>
           </p>
-          <p>Completed</p>
+          <p className="completed">Completed</p>
         </div>
       </div>
-      <div>
-        <p>CURRENT CHAPTER</p>
-        <p>Chapter 10</p>
-        <button type="button">
+      <div className="level-two" />
+      <div className="levels">
+        <p className="main-levels">CURRENT CHAPTER</p>
+        <p className="main-task">Chapter 10</p>
+        <button type="button" className="Update-progress">
           UPDATE PROGRESS
         </button>
       </div>
