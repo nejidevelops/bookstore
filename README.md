@@ -112,8 +112,8 @@ You can deploy this project using:
 
 👤 **Newton Ombese**
 
-- GitHub: [@newtonOmbese](https://github.com/NewtonOmbese)
-- Twitter: [@NewtonOmbese](https://twitter.com/NewtonOmbese)
+- GitHub: [@newtonOmbese](https://github.com/mohammadnewton)
+- Twitter: [@NewtonOmbese](https://twitter.com/mohanewto200)
 - LinkedIn: [@newtonOmbese](https://www.linkedin.com/in/newton-ombese-570862210/)
 
 
