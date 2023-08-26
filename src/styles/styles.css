@@ -195,7 +195,10 @@ ul {
 }
 
 .circle {
-  margin-right: 10%;
+  margin-right: 3.46%;
+  border: 1px solid rgb(204, 200, 200);
+  border-radius: 50%;
+  padding: 0.5rem;
 }
 
 .main-task {
@@ -298,4 +301,6 @@ ul {
 
 .new-book {
   padding: 0 3rem 0.5rem 3rem;
+  font-family: var(--RobotoSlab);
+  color: #a4a4a4;
 }
