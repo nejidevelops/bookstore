@@ -6,11 +6,11 @@ import NavBar from './Navbar';
 
 const Header = () => (
   <header>
-    <div>
-      <h1>Bookstore CMS</h1>
+    <div className="title">
+      <h1 className="store">Bookstore CMS</h1>
       <NavBar />
     </div>
-    <div>
+    <div className="circle">
       <FontAwesomeIcon icon={faUser} style={{ color: '#0290ff' }} />
     </div>
   </header>
