@@ -48,7 +48,7 @@ nav a {
 
 /* Form styles */
 form {
-  margin-bottom: 4rem;
+  margin: 0 3rem 4rem 3rem;
   display: flex;
   gap: 2rem;
 }
@@ -289,4 +289,13 @@ ul {
 
 .levels {
   margin-right: 4rem;
+}
+
+.hr {
+  border: 1px solid gray;
+  margin: 0 3rem;
+}
+
+.new-book {
+  padding: 0 3rem 0.5rem 3rem;
 }
