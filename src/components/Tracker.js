@@ -1,7 +1,8 @@
 import React from 'react';
+import '../styles/Tracker.css';
 
 const Loader = () => (
-  <div>
+  <div className="ring">
     <div />
     <div />
     <div />

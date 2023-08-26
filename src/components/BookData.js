@@ -40,7 +40,7 @@ const AddBook = () => {
         name="author"
         onChange={getInputs}
         value={input.author}
-        placeholder="Categories"
+        placeholder="Author"
       />
       <br />
       <button type="submit" onClick={handleSubmit}>

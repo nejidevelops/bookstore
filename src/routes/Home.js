@@ -7,8 +7,9 @@ const Home = () => (
     <div>
       <BookLists />
     </div>
+    <div className="hr" />
     <div>
-      <h2>ADD A NEW BOOK</h2>
+      <h2 className="new-book">ADD A NEW BOOK</h2>
       <AddBook />
     </div>
   </div>
